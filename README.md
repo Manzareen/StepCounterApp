@@ -1,28 +1,25 @@
-StepCounterApp: A Complete Guide
+# StepCounterApp
+
 Project Overview
 StepCounterApp is a comprehensive full-stack application that tracks and analyzes step count data. The system consists of an Android mobile application, a Flask backend API, and an interactive web dashboard for data visualization.
-✨ Features
+
+# Features
 
 Mobile App: Real-time step counting, clean user interface with a count of steps.
-
 Backend API: RESTful API for data processing and storage.
-
 Web Dashboard: Real-time analytics and visualization of step data with interactive charts.
-🛠️ Technology Stack & Software Versions
 
+# Technology Stack & Software Versions
 For the best compatibility, it is recommended to use the following versions or newer:
-
-Component	Technology	Recommended Version
 Mobile App	Android SDK	API 28 (Android 9.0) or later
 Backend API	Python, Flask	Python 3.8+, Flask 2.3.3
 Database	MongoDB	MongoDB Atlas (Cloud)
 Web Dashboard	HTML5, CSS3, JavaScript, Chart.js	Chart.js 4.0+
 Build Tools	Gradle, pip	As included in Android Studio and Python
 
-🚀 Guide to Run the Application
+# To Run the Application
 
 # Backend Setup
-
 # Navigate to the backend directory
 cd backend
 
@@ -31,6 +28,7 @@ pip install -r requirements.txt
 
 # Start the Flask server
 python app.py
+
 The backend API will be running at http://localhost:5000.
 
 # Web Dashboard Setup
@@ -42,13 +40,12 @@ python -m http.server 8000
 Access the dashboard by opening http://localhost:8000 in your web browser.
 
 # Mobile App Setup
-
 Open the mobile-app project folder in Android Studio.
 Let the project sync with Gradle.
 Connect an Android device or create an emulator.
 Build and run the application.
 
-📁 Project Structure
+# Project Structure
 StepCounterApp/
 ├── 📱 mobile-app/          # Android Application
 ├── 🖥️ backend/            # Flask Backend API
